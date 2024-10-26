@@ -72,10 +72,10 @@
             //                               '--------+---------+----------'       '--------+--------+---------'
 
             bindings = <
-&to 3      &trans  &trans    &kp UP    &trans     &trans           &kp N7  &kp N8  &kp N9        &kp LPAR  &kp RPAR  &kp DEL
-&kp LSHFT  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp HOME         &kp N4  &kp N5  &kp N6        &trans    &trans    &kp GRAVE
-&kp LCTRL  &trans  &trans    &trans    &trans     &kp END          &kp N1  &kp N2  &kp N3        &kp N0    &trans    &kp BSLH
-                             &kp LALT  &trans     &lt ADJ ENTER    &trans  &trans  &kp LEFT_GUI
+&to 3      &trans  &kp LC(LG(LEFT_ARROW))  &kp UP    &kp LC(LG(RIGHT_ARROW))  &trans           &kp N7  &kp N8   &kp N9        &kp PLUS      &kp MINUS      &trans
+&kp LSHFT  &trans  &kp LEFT                &kp DOWN  &kp RIGHT                &kp HOME         &kp N4  &kp N5   &kp N6        &kp ASTERISK  &kp KP_DIVIDE  &trans
+&kp LCTRL  &trans  &trans                  &trans    &trans                   &kp END          &kp N1  &kp N2   &kp N3        &kp N0        &mt DOT COMMA  &trans
+                                           &kp LALT  &trans                   &lt ADJ ENTER    &trans  &kp DEL  &kp LEFT_GUI
             >;
         };
 
