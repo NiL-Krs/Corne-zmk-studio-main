@@ -34,10 +34,10 @@
             //                            '--------+---------+---------'       '-------+---------+---------'
 
             bindings = <
-&mt ESC TAB  &kp Q  &kp W  &kp E     &kp R  &kp T          &kp Y      &kp U     &kp I      &kp O    &kp P     &kp LEFT_BRACKET
-&kp LSHFT    &kp A  &kp S  &kp D     &kp F  &kp G          &kp H      &kp J     &kp K      &kp L    &kp SEMI  &mt RIGHT_SHIFT SQT
-&kp LCTRL    &kp Z  &kp X  &kp C     &kp V  &kp B          &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RBKT
-                           &kp LALT  &mo 1  &lt 2 SPACE    &kp ENTER  &kp BSPC  &kp LWIN
+&mt ESC TAB    &kp Q  &kp W  &kp E     &kp R  &kp T          &kp Y      &kp U           &kp I      &kp O    &kp P     &kp LEFT_BRACKET
+&kp BACKSPACE  &kp A  &kp S  &kp D     &kp F  &kp G          &kp H      &kp J           &kp K      &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&kp LCTRL      &kp Z  &kp X  &kp C     &kp V  &kp B          &kp N      &kp M           &kp COMMA  &kp DOT  &kp FSLH  &kp RBKT
+                             &kp LALT  &mo 1  &lt 2 SPACE    &kp ENTER  &kp LEFT_SHIFT  &kp LWIN
             >;
         };
 
@@ -54,9 +54,9 @@
 
             bindings = <
 &kp NUMBER_1  &trans  &kp LC(LG(LEFT_ARROW))  &kp UP    &kp LC(LG(RIGHT_ARROW))  &to 2          &kp LS(LC(NUMBER_1))  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp MINUS
-&trans        &trans  &kp LEFT                &kp DOWN  &kp RIGHT                &kp HOME       &kp PAGE_UP           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp KP_SLASH
+&kp DEL       &trans  &kp LEFT                &kp DOWN  &kp RIGHT                &kp HOME       &kp PAGE_UP           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp KP_SLASH
 &trans        &trans  &trans                  &trans    &trans                   &kp END        &kp PAGE_DOWN         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &mt DOT COMMA
-                                              &trans    &trans                   &lt 3 ENTER    &trans                &kp DEL       &trans
+                                              &trans    &trans                   &lt 3 ENTER    &trans                &trans        &trans
             >;
         };
 
