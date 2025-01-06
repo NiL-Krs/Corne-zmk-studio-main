@@ -62,10 +62,10 @@
             //                               '--------+---------+----------'       '--------+--------+---------'
 
             bindings = <
-&kp NUMBER_1  &kp GRAVE  &kp LC(LG(LEFT_ARROW))  &kp UP    &kp LC(LG(RIGHT_ARROW))  &to 2          &kp LS(LC(NUMBER_1))  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp MINUS
-&kp DEL       &trans     &kp LEFT                &kp DOWN  &kp RIGHT                &kp HOME       &kp PAGE_UP           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp KP_SLASH
-&trans        &trans     &trans                  &trans    &new_macro               &kp END        &kp PAGE_DOWN         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp EQUAL
-                                                 &trans    &trans                   &lt 3 ENTER    &trans                &trans        &trans
+&kp NUMBER_1  &kp GRAVE             &kp LC(LG(LEFT_ARROW))  &kp UP    &kp LC(LG(RIGHT_ARROW))  &to 2          &kp LS(LC(NUMBER_1))  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp MINUS
+&kp DEL       &kp NON_US_BACKSLASH  &kp LEFT                &kp DOWN  &kp RIGHT                &kp HOME       &kp PAGE_UP           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp KP_SLASH
+&trans        &trans                &trans                  &trans    &new_macro               &kp END        &kp PAGE_DOWN         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp EQUAL
+                                                            &trans    &trans                   &lt 3 ENTER    &trans                &trans        &trans
             >;
         };
 
