@@ -18,6 +18,5 @@ include:
   # Левая половина — диагностическая прошивка
   - board: nice_nano//zmk
     shield: corne_left
-    snippet: zmk-usb-logging
     cmake-args: -DCONFIG_ZMK_STUDIO=n
-    artifact-name: corne_left_debug
+    artifact-name: corne_left_bt_test
