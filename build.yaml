@@ -20,3 +20,10 @@ include:
     shield: corne_left
     cmake-args: -DCONFIG_ZMK_STUDIO=n
     artifact-name: corne_left_bt_test
+
+  # Separate diagnostic image; preserve the existing keymap and saved settings.
+  - board: nice_nano//zmk
+    shield: corne_left
+    snippet: zmk-usb-logging
+    cmake-args: -DCONFIG_ZMK_STUDIO=n
+    artifact-name: corne_left_usb_debug
